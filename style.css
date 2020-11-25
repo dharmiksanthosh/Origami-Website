@@ -1,12 +1,15 @@
 html {
-    background-color: #ccc;
+    background-image: url('images/bg.jpg');
 }
 body {
-    background-color: #666;
+    background-color: #111;
     padding-top: 5px;
+    margin: 30px;
     border: solid;
-    border-color: black;
-    border-radius: 10px;
+    border-color: #555;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 10px 15px 10px #222;
 }
 h1 {
     background-color: black;
@@ -44,7 +47,7 @@ h1 {
 img {
     border: solid;
     border-radius: 20%;
-    border-color: black;
+    border-color: #444;
     border-width: 5px;
 }
 #i {
@@ -52,11 +55,11 @@ img {
     padding-left: 10px;
 }
 #b {
-    background-color: grey;
+    background-color: #444;
     color: honeydew;
     padding: 10px;
     border: solid;
-    border-color: black;
+    border-color: #999;
     border-radius: 10px;
 }
 #l {
@@ -64,4 +67,19 @@ img {
 }
 #tdf {
     text-decoration: none;
+}
+.me {
+
+    margin-top: 20px;
+    padding: 20px;
+}
+#form {
+
+    border: solid;
+    border-color: white;
+    margin-top: 20px;
+    margin-left: 44%;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
 }
