@@ -49,6 +49,31 @@ img {
     border-radius: 20%;
     border-color: #444;
     border-width: 5px;
+    position: relative;
+}
+#item {
+
+    cursor: pointer;
+    position: relative;
+}
+#item h4 {
+
+    position: absolute;
+    top: 86%;
+    left: 11%;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+    font-weight: bold;
+    color: white;
+}
+#item:hover h4 {
+
+    color: black;
+    opacity: 1;
+}
+img:hover {
+
+    transform: scale(1.2);
 }
 #i {
     color: white;
@@ -82,4 +107,12 @@ img {
     text-align: center;
     padding: 10px;
     width: fit-content;
+}
+#af:link {
+
+    color: #fff;
+}
+#af:visited {
+
+    color: rgb(29, 24, 24);
 }
